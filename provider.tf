@@ -2,9 +2,9 @@ terraform {
   required_version = ">=0.13.0"
 
   backend "s3" {
-    bucket  = "ACCOUNT_ID_REMOVED-tfstate"
+    bucket  = "YOUR_AWS_ACCOUNT_ID_HERE-tfstate"
     encrypt = "true"
-    key     = "ecs-nginx-demo.tfstate"
+    key     = "fargate-demo.tfstate"
     region  = "eu-west-2"
   }
 }

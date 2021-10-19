@@ -7,7 +7,7 @@ variable "memory" {
 }
 
 variable "name" {
-  default = "ecs-nginx-demo"
+  default = "fargate-demo"
 }
 
 variable "pod_count" {
